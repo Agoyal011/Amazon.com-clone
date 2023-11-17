@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    font-family:Arial;
+    border:border-box;/* border should be counted inside as part of the width and height*/
+}
+
+.navbar{
+height: 60px;
+background-color: #0f1111;
+text-decoration: white;
+display: flex;
+align-items: center; /* ro place the items in centre aligned in divs */
+}
+
+.nav-logo{
+height: 50px;
+width: 100px;
+
+}
+
+.logo {
+
+background-image: url("/amazon_logo.png");
+height: 50px; /* height to the divs is very important to make it show in the navbar*/
+width: 100%;
+background-size: cover;
+
+}
+
+.border{
+border: 1.5px solid transparent;
+}
+
+.border:hover{
+border: 1.5px solid white;
+}
+
+/* box 2 */
+
+.first-add{
+color:#cccccc;
+font-size: 1 rem;
+margin-left: 15px;
+
+}
+
+.sec-add{
+font-size: 1.25rem;
+text-decoration: white;
+margin-left: 3px;
+
+}
+
+.address-icon{
+display: flex;
+align-items: center;
+}
+
+/* box 3 */
+
+.nav-search{
+display: flex;
+justify-content: space-evenly;
+background-color: pink;
+width: 620px; /* height and width of the div or box */
+height: 40px;
+border-radius: 2px;
+}
+
+.search-select{
+background-color: #f3f3f3;
+width: 50px;
+height: 40px;
+text-align: center;
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+border: none;
+
+}
+
+.search-input{
+
+width: 100%;
+
+font-size:1 rem;
+border: none;
+
+
+}
+
+
+
+
+
+

@@ -6,10 +6,11 @@
 
 .navbar{
 height: 60px;
-background-color: #0f1111;
+background-color: #0f1111; 
 text-decoration: white;
 display: flex;
 align-items: center; /* ro place the items in centre aligned in divs */
+justify-content: space-evenly;
 }
 
 .nav-logo{
@@ -20,7 +21,7 @@ width: 100px;
 
 .logo {
 
-background-image: url("/amazon_logo.png");
+background-image: url("amazon_logo.png");
 height: 50px; /* height to the divs is very important to make it show in the navbar*/
 width: 100%;
 background-size: cover;
@@ -37,23 +38,47 @@ border: 1.5px solid white;
 
 /* box 2 */
 
+.nav-address{
+
+width: 88px;
+height: 50px;
+justify-content: center;
+align-items: center;
+display: flex;
+
+
+}
+
+.border{
+    border: 1.5px solid transparent;
+    }
+    
+    .border:hover{
+    border: 1.5px solid white;
+    }
+
+
 .first-add{
-color:#cccccc;
-font-size: 1 rem;
+color:white;
+font-size: 12px;
 margin-left: 15px;
+align-items: center;
+
 
 }
 
 .sec-add{
-font-size: 1.25rem;
+font-size: 14px;
 text-decoration: white;
-margin-left: 3px;
-
+color:white;
+margin-left:3px;
+font-weight: bold;
 }
 
 .address-icon{
 display: flex;
 align-items: center;
+color: white;
 }
 
 /* box 3 */
@@ -85,8 +110,191 @@ width: 100%;
 font-size:1 rem;
 border: none;
 
+}
+
+.mag-glass{
+
+width: 45px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.2 rem;
+background-color: rgb(255, 170, 0);
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+color: #0f1111;
 
 }
+
+.CountryOuter{
+
+height: 50px;
+width: 73px;
+align-items: flex-end;
+display: flex;
+text-align: center;
+justify-content: center;
+/*margin-bottom: 20px;*/
+
+}
+
+.border{
+    border: 1.5px solid transparent;
+    }
+    
+    .border:hover{
+    border: 1.5px solid white;
+    }
+
+
+
+.Country{
+height: 33px;
+width: 55px;
+display: flex;
+align-items: flex-end;
+
+}
+
+.Icon{
+
+color: white;
+display: flex;
+justify-content: center;
+text-align: center;
+
+/*height: 22px;
+width: 17px;*/
+height: 50%;
+width: 100%;
+
+margin-bottom: 15px;
+
+
+}
+
+.language{
+text-decoration: white;
+text-align: center;
+justify-content: center;
+height: 19px;
+width: 15px;
+}
+
+.signin {
+
+width: 130px;
+height: 50px;
+align-items: center;
+display: flex;
+justify-content: center;
+}
+
+
+
+.border{
+    border: 1.5px solid transparent;
+    }
+    
+    .border:hover{
+    border: 1.5px solid white;
+    }
+
+.signin-content{
+justify-content: center;
+color: white;
+/*height: 15px;
+width: 70px;
+display: inline;*/
+   
+}
+
+.first-line{
+/*height: 15px;
+width: 70px;8*/
+display: inline;
+font-size: 12px;
+}
+.second-line{
+/*height: 15px;
+width: 113px;*/
+font-size: 14px ;
+font-weight: bold;
+display: inline;
+}
+
+.Returns {
+height: 50px;
+width: 77px;
+display: flex;
+justify-content: center;
+/*text-decoration: white;*/
+align-items: center;
+
+}
+
+.border{
+    border: 1.5px solid transparent;
+    }
+    
+    .border:hover{
+    border: 1.5px solid white;
+    }
+
+.return-content{
+color: white; 
+font-size: 12px;
+
+
+}
+
+.Order_icon{
+display: flex;
+}
+
+.second_line{
+font-size: 14px;
+font-weight: bold;
+}
+
+.Shop-cart{
+
+width: 84px;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+text-decoration: white;
+
+}
+
+.cart-inner{
+
+display: flex;
+justify-content: center;
+/*color: white;
+text-decoration: white;*/
+}
+
+.navbar-2{
+
+height: 40px; 
+width: auto;
+justify-content: space-evenly;
+background-color: #195851;
+text-decoration: white;
+}
+
+.first-container{
+color: white;
+display: flex;
+}
+
+
+
+
+
 
 
 

@@ -64,7 +64,6 @@ font-size: 12px;
 margin-left: 15px;
 align-items: center;
 
-
 }
 
 .sec-add{
@@ -90,6 +89,10 @@ background-color: pink;
 width: 620px; /* height and width of the div or box */
 height: 40px;
 border-radius: 2px;
+}
+
+.nav-search :hover{
+border: 2px solid orange;
 }
 
 .search-select{
@@ -266,33 +269,93 @@ justify-content: center;
 align-items: center;
 color: white;
 text-decoration: white;
+font-weight: 700;
 
 }
 
-.cart-inner{
-
-display: flex;
-justify-content: center;
-/*color: white;
-text-decoration: white;*/
+.Shop-cart i{
+font-size: 30px;
 }
+
+
 
 .navbar-2{
 
 height: 40px; 
-width: auto;
-justify-content: space-evenly;
+width: 1535px;
 background-color: #195851;
 text-decoration: white;
+display: flex;
+align-items: center;
+font-size: 14px;
+font-weight: 700;
+
 }
 
 .first-container{
 color: white;
 display: flex;
+align-items: center;
+justify-content: center;
+height: 39px;
+width: 59px;
+
+
 }
 
 
 
+.second-container{
+    color: white;
+    /*display: flex;*/
+    /*justify-content: space-evenly;*/
+    align-items: center;
+    height: 28px;
+    width: 102px;
+    /*justify-content: center;*/
+    margin-left: 15px;
+
+
+}
+
+
+.third-container{
+    color: white;
+    /*display: flex;*/
+    /*justify-content: space-evenly;*/
+    align-items: center;
+    height: 28px;
+    width: 70px;
+
+}
+
+.fourth-container{
+    color: white;
+    /*display: flex;*/
+    /*justify-content: space-evenly;*/
+    align-items: center;
+    height: 28px;
+    width: 128px;
+
+}
+
+.fifth-container{
+    color: white;
+    /*display: flex;*/
+    /*justify-content: space-evenly;*/
+    align-items: center;
+    height: 28px;
+    width: 81px;
+}
+
+.sixth-container{
+    color: white;
+    /*display: flex;*/
+    /*justify-content: space-evenly;*/
+    align-items: center;
+    height: 28px;
+    width: 42px;
+}
 
 
 

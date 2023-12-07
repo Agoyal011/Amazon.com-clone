@@ -357,9 +357,40 @@ width: 59px;
     width: 42px;
 }
 
+/*Hero-container*/
+
+.Hero-container{
+
+background-image: url(/hero_image.jpg);
+
+width: auto;
+height: 600px;
+background-size: cover;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+}
 
 
+.inner-container{
+background-color: white;
+text-decoration: black;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 14px;
+width: 80%;
+margin-bottom: 25px;   /*to make the container go up*/
 
+}
+.inner-container a {
+
+color:blue;
+font-size: 14px;
+
+
+}
 
 
 

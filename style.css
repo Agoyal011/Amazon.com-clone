@@ -2,6 +2,7 @@
     margin:0;
     font-family:Arial;
     border:border-box;/* border should be counted inside as part of the width and height*/
+    overflow-x:hidden;
 }
 
 .navbar{
@@ -282,7 +283,6 @@ font-size: 30px;
 .navbar-2{
 
 height: 40px; 
-width: 1535px;
 background-color: #195851;
 text-decoration: white;
 display: flex;
@@ -312,7 +312,7 @@ width: 59px;
     align-items: center;
     height: 28px;
     width: 102px;
-    /*justify-content: center;*/
+    justify-content: center;
     margin-left: 15px;
 
 
@@ -359,17 +359,25 @@ width: 59px;
 
 /*Hero-container*/
 
+
 .Hero-container{
 
-background-image: url(/hero_image.jpg);
 
-width: auto;
-height: 600px;
-background-size: cover;
+/*background-image: url(/hero-image1.jpg);*/
+/*background:linear-gradient(to bottom, 20%, url('/hero-image1.jpg'));*/
+
+
 display: flex;
-align-items: flex-end;
+
 justify-content: center;
-}
+justify-content: center;
+align-items: center;
+
+overflow-y: hidden;
+
+} 
+
+
 
 
 .inner-container{
@@ -380,18 +388,118 @@ display: flex;
 justify-content: center;
 align-items: center;
 font-size: 14px;
-width: 80%;
-margin-bottom: 25px;   /*to make the container go up*/
+margin: auto;
+
+width: 92%;
+   /*to make the container go up*/
+margin-top: 270px;
 
 }
 .inner-container a {
 
 color:blue;
 font-size: 14px;
+}
 
+
+.content-container{
+
+width: 100%;
+display: flex;
+/*width: 100vw;*/
+
+
+position: relative;
+margin-top: 15px;
+height: 400px;
+justify-content: space-around;
+
+
+}
+.box {
+
+
+
+/*border: 2px solid black;*/
+font-size: 12px;
+width: 22%;
+height: 350px;
+padding-left: 0px;
+padding-top: 20px;
+padding-bottom: 15px; 
+padding-right: 0px;
+overflow-x: hidden;
+overflow-y: hidden;
+background-color: white;
+
+/*margin-left: 115px;
+margin-right: 115px;*/
+
+
+}
+
+.box1-img{
+
+background-image: url(/box2_image.jpg);
+height: 250px;
+background-size: cover;
+color: blue;
+position: relative;
+justify-content: flex-end;
 
 }
 
 
 
 
+.content-container2{
+
+    display: flex;
+    /*width: 100vw;*/
+    
+    justify-content: space-around;
+    
+
+}
+
+.box-content{
+
+margin-left: 15px;
+margin-right: 15px;
+}
+
+.whole-content{
+
+width:95%;
+margin: auto;
+background-image: url(/hero-image1.jpg);
+background-position-x: center;
+background-size: 100% 600px;
+background-repeat: no-repeat;
+align-items: center;
+}
+
+.fullpage-content{
+
+width: 100%;
+background-color: #0f1111;
+}
+
+.content-container3{
+
+width: 97%;
+height:285px;
+color: white;
+background-color: white;
+margin-top: 15px;
+margin-left: 21px;
+display: flex;
+position: relative;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+font-size: 13px;
+
+
+}

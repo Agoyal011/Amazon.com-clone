@@ -489,7 +489,7 @@ background-color: #0f1111;
 
 width: 97%;
 height:285px;
-color: white;
+
 background-color: white;
 margin-top: 15px;
 margin-left: 21px;
@@ -499,7 +499,27 @@ padding-top: 10px;
 padding-bottom: 10px;
 padding-left: 20px;
 padding-right: 20px;
-font-size: 13px;
+box-sizing: border-box;
+font-size: 21px;
+text-decoration: black;
 
+
+}
+
+.title-container{
+
+margin-top: 10px;
+padding-right: 15px;
+
+box-sizing: border-box;
+
+}
+
+
+
+.title-container a{
+padding-left: 10px;
+font-size: 13px;
+color: blue;
 
 }

@@ -493,8 +493,6 @@ height:285px;
 background-color: white;
 margin-top: 15px;
 margin-left: 21px;
-display: flex;
-position: relative;
 padding-top: 10px;
 padding-bottom: 10px;
 padding-left: 20px;
@@ -510,6 +508,7 @@ text-decoration: black;
 
 margin-top: 10px;
 padding-right: 15px;
+margin-bottom: 10px;
 
 box-sizing: border-box;
 
@@ -522,4 +521,33 @@ padding-left: 10px;
 font-size: 13px;
 color: blue;
 
+}
+
+.images1{
+
+height: 220px;
+display: flex;
+justify-content: space-evenly;
+}
+
+.photo{
+height: 200px;
+
+overflow: hidden;
+
+}
+
+.slider{
+scroll-snap-type: x mandatory;
+display: flex;
+
+
+}
+
+.slider> div{
+width: 100%;
+display: flex;
+scroll-snap-align: start;
+scroll-behavior: smooth;
+flex-shrink: 0;
 }

@@ -7,7 +7,7 @@
 
 .navbar{
 height: 60px;
-background-color: #0f1111; 
+background-color: #061715e4; 
 text-decoration: white;
 display: flex;
 align-items: center; /* ro place the items in centre aligned in divs */
@@ -570,6 +570,9 @@ display: flex;
 .footer-container2{
 height: 450px;
 background-color: #232f3e;
+display: flex;
+justify-content: center;
+
 
 }
 
@@ -580,11 +583,13 @@ font-weight: bold;
 
 }
 
-.list1-container{
+.cont{
 
-display: flex;
+margin-top: 40px;
+margin-left: 50px;
+padding-left: 35px;
+padding-right: 10px;
 }
-
 
 ul {
     list-style-type: none;
@@ -602,8 +607,42 @@ ul {
   }
 
 .footer-container3{
-    height: 100px;
-    background-color: #0f1111;
+    height: 400px;
+    background-color: rgb(19,26,34);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    width: 100%;
     }
+
+table  {
+
+width: 70%;
+height: 340px;
+border: 2px solid white;
+margin: auto;
+color: white;
+text-decoration: white;
+
+overflow-y: hidden;
+overflow-x: hidden;
+
+}
+
+tr {
+color: white;
+height: 81px;
+
+}
+
+td{
+height: 81px;
+width: 125px;
+padding-left: 9px;
+padding-right: 9px;
+font-size: 12px;
+padding-right: 30px;
+overflow: hidden;
+}
 
 

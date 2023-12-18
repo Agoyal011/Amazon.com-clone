@@ -607,7 +607,7 @@ ul {
   }
 
 .footer-container3{
-    height: 400px;
+    
     background-color: rgb(19,26,34);
     padding-top: 30px;
     padding-bottom: 30px;
@@ -619,30 +619,82 @@ table  {
 
 width: 70%;
 height: 340px;
-border: 2px solid white;
+/*border: 2px solid white;*/
 margin: auto;
-color: white;
+color: #999999;
 text-decoration: white;
 
 overflow-y: hidden;
 overflow-x: hidden;
+font-size: 12px;
 
 }
 
 tr {
-color: white;
+color: #999999;
 height: 81px;
 
+
+}
+tr a {
+color:white
 }
 
 td{
 height: 81px;
-width: 125px;
+width: 130px;
 padding-left: 9px;
 padding-right: 9px;
 font-size: 12px;
 padding-right: 30px;
 overflow: hidden;
+vertical-align: text-top;
 }
 
 
+.footer-container4{
+width: 100%;
+font-size: 12px;
+padding-top: 10px;
+padding-bottom: 30px;
+background-color: rgb(19,26,34);
+line-height: 18px;
+display: block;
+}
+
+.footer4{
+
+margin-left:18px;
+margin-inline-start: 18px;
+display: flex;
+justify-content: center;
+font-size: 12px;
+box-sizing: border-box;
+padding-bottom: 0px;
+
+}
+
+.footer-container4 ul li{
+color: white;
+list-style-type: disc;
+margin-bottom: 0px;
+}
+
+.footer-container4 ul li a {
+padding-left: 7.2px;
+padding-right: 7.2px;
+color: white;
+list-style-position: outside;
+list-style-type: disc;
+margin-bottom: 0px;
+}
+
+.span1{
+font-size: 12px;
+padding-left: 7.2px;
+padding-right: 7.2px;
+color: white;
+display: flex;
+justify-content: center;
+
+}
